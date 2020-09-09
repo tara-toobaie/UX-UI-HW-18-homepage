@@ -1,13 +1,12 @@
 
 
-.navbar{
+.navbar a {
     float: right;
-    
-    color:black;
+    color: black;
     text-align: center;
-     
-    
-    font-size: 24px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
     font-weight: bold;
     padding-right: 5%;
     padding-top: 5%;
@@ -16,32 +15,17 @@
     
 }
 
-a{
-    text-decoration: none;
-    color:black;
-    padding-left: 20px;
-    
-
-}
-
-
-
-
-
 
 .logo{
 
-display: flex;
-  justify-content: flex-start;
-  align-items:center;
-  padding-left: 5%;
-    padding-top: 3%;
-  
-}
+    display: flex;
+    padding-left: 5%;
+    padding-top: 4%;
+    padding-bottom: 8%;}
+
 
 .top-text{
-    display: block;
-    justify-content: flex-start;
+ display: block;
     padding-left: 5%;
     padding-top: 10%;
  
@@ -52,6 +36,8 @@ display: flex;
 h1{
     font-size: 48px;
     font-weight: bold;
+  
+ 
 
 }
 
@@ -79,6 +65,11 @@ padding-left: 5%;
     position: relative;
 
 }
+
+
+
+
+
 .Nasa-image{
     width: 638px;
     height: 433px;
@@ -88,6 +79,12 @@ padding-left: 5%;
    
 
 }
+
+
+
+            
+
+
 .text-explaine{
     position: absolute;
     right: -300px;
@@ -104,6 +101,8 @@ h3{
     font-weight: bold;
 }
 
+
+
 h4{
     font-size: 28px;
     font-weight:800px;
@@ -113,6 +112,8 @@ p1{
     font-weight:normal;
     
 }
+
+
     
     
 
@@ -135,7 +136,13 @@ h5{
     display: flex;
     align-items: center;
     padding-left: 1% ;
- }   
+ }  
+ 
+ 
+
+
+
+
  #BIKE{
     display: flex;
     
@@ -162,6 +169,7 @@ h5{
             display: flex;
         align-items: center;
         padding-left: 10%;
+        
     
         }
         .footer-bar{
@@ -176,7 +184,31 @@ h5{
             padding-left: 5%;
             padding-top: 10%;
             padding-bottom: 5%;
-            text-decoration: none;
+            text-decoration: none;}
           
             
-        }
+       
+
+        @media only  screen and  (max-width: 1000px){
+         
+         .navbar a, .logo,  h3, p1{
+             display: none;
+            
+
+        }}
+
+     
+        @media only  screen and  (max-width: 600px){
+
+    #background {
+
+        width: 100%;
+        box-sizing: border-box;
+    }}
+    @media only  screen and  (max-width: 600px){
+
+    img{
+        
+          width: 100%;
+      }  
+    }
